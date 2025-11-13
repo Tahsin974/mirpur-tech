@@ -57,7 +57,7 @@ export default function HomePage() {
                   দৃষ্টি আকর্ষণপূর্বক জানানো যাচ্ছে যে —
                 </p>
                 <p className="font-semibold text-red-600 leading-relaxed my-6 text-center">
-                  প্রতিটি মাসের ১০ তারিখের মধ্যে বিল পরিশোধ করা আবশ্যক।
+                  প্রতি মাসের ১০ তারিখের মধ্যে বিল পরিশোধ করা আবশ্যক।
                 </p>
                 <p className="leading-relaxed">
                   নির্ধারিত সময়ের পর বিল পরিশোধ না হলে, আমাদের নীতিমালা

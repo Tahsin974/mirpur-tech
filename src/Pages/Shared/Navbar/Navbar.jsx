@@ -9,9 +9,10 @@ export default function Navbar() {
   const links = [
     { name: "Home", link: "/#" },
     { name: "Packages", link: "/#packages" },
-    { name: "ISP tariff Approval", link: "/tariff-approval-page" },
+    { name: "Offers", link: "/offers#" },
     { name: "Media", link: "/media" },
     { name: "Service", link: "/#service" },
+    { name: "PayBill", link: "/paybill#" },
     { name: "Contact", link: "/contact/" },
   ];
 
@@ -30,7 +31,7 @@ export default function Navbar() {
             </figure>
           </a>
         </motion.div>
-        <nav className="hidden md:flex gap-6 text-gray-700 font-medium">
+        <nav className="hidden md:flex items-center gap-6 text-gray-700 font-medium">
           {links.map((link, i) => (
             <motion.a
               key={i}
@@ -38,7 +39,14 @@ export default function Navbar() {
               whileHover={{ scale: 1.1, color: "#59aef8" }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              {link.name}
+              {link.name === "Offers" ? (
+                <div className="flex items-center gap-1.5">
+                  {link.name}
+                  <div className="badge badge-sm badge-secondary">1</div>
+                </div>
+              ) : (
+                link.name
+              )}
             </motion.a>
           ))}
         </nav>

@@ -5,9 +5,12 @@ import TermsConditionPage from "../Pages/TermsConditionPage/TermsConditionPage";
 import PrivacyPolicyPage from "../Pages/PrivacyPolicyPage/PrivacyPolicyPage";
 import ReturnPolicyPage from "../Pages/ReturnPolicyPage/ReturnPolicyPage";
 import MediaPage from "../Pages/MediaPage/MediaPage";
-import TariffApprovalPage from "../Pages/TariffApprovalPage/TariffApprovalPage";
+
 import ContactPage from "../Pages/ContactPage/ContactPage";
 import AboutPage from "../Pages/AboutPage/AboutPage";
+import OfferPage from "../Pages/OfferPage/OfferPage";
+import OfferDetailsPage from "../Pages/OfferPage/OfferDetailsPage";
+import PayBillPage from "../Pages/PayBillPage/PayBillPage";
 
 export const router = createBrowserRouter([
   {
@@ -22,10 +25,7 @@ export const router = createBrowserRouter([
         path: "/media",
         element: <MediaPage />,
       },
-      {
-        path: "/tariff-approval-page",
-        element: <TariffApprovalPage />,
-      },
+
       {
         path: "/contact/",
         element: <ContactPage />,
@@ -33,6 +33,18 @@ export const router = createBrowserRouter([
       {
         path: "/about/",
         element: <AboutPage />,
+      },
+      {
+        path: "/offers/",
+        element: <OfferPage />,
+      },
+      {
+        path: "/offers/:slug",
+        element: <OfferDetailsPage />,
+      },
+      {
+        path: "/paybill",
+        element: <PayBillPage />,
       },
       {
         path: "/terms-and-conditions/",

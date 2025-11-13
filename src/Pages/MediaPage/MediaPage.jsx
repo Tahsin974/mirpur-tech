@@ -1,18 +1,24 @@
 import { ArrowRight, Server } from "lucide-react";
+import img1 from "../../assets/Server/ftp-server.png";
+import img2 from "../../assets/Server/DhakaFlix.JPG";
+import img3 from "../../assets/Server/ftpmedia.png";
+import img4 from "../../assets/Server/jellyfin.png";
 
 export default function MediaPage() {
   const ftpLinks = [
-    { name: "FTP Server 1", url: "http://10.16.100.244/" },
-    { name: "FTP Server 2", url: "http://172.16.50.4/" },
-    { name: "FTP Server 3", url: "https://172.27.27.84/" },
-    { name: "FTP Server 4", url: "http://showtimebd.com/" },
-    { name: "FTP Server 5", url: "http://banglatube.net/" },
-    { name: "FTP Server 6", url: "https://bdixftplink.blogspot.com/" },
-    { name: "FTP Server 7", url: "http://10.1.1.1/" },
+    { name: "FTP Server ", url: "http://10.16.100.244/", img: img1 },
+    { name: "DhakaFlix", url: "http://172.16.50.4/", img: img2 },
+    { name: "FTPMedia.live", url: "http://10.1.1.1/", img: img3 },
     {
-      name: "FTP Server 8",
+      name: "Jellyfin",
       url: "https://vdomela.com/web/#/selectserver.html",
+      img: img4,
     },
+
+    { name: "FTP Server 5", url: "https://172.27.27.84/" },
+    { name: "FTP Server 6", url: "http://showtimebd.com/" },
+    { name: "FTP Server 7", url: "http://banglatube.net/" },
+    { name: "FTP Server 8", url: "https://bdixftplink.blogspot.com/" },
   ];
   return (
     <div>
@@ -28,7 +34,12 @@ export default function MediaPage() {
               className="shadow-md border border-gray-700 hover:shadow-lg transition-all duration-200 p-4 space-y-4"
             >
               <div className="flex items-center justify-center flex-col ">
-                <Server className="w-8 h-8 text-blue-500 mb-2 mx-auto" />
+                {server.img ? (
+                  <img src={server.img} alt={server.name} className="h-20" />
+                ) : (
+                  <Server className="w-20 h-20 text-blue-500 mb-2 mx-auto" />
+                )}
+
                 <h2 className="text-lg font-semibold text-gray-800  text-center">
                   {server.name}
                 </h2>

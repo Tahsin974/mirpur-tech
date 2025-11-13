@@ -1,63 +1,152 @@
 import { motion } from "framer-motion";
 // import img from "../../../assets/hero/hero-image.webp";
-import bgImg from "../../../assets/hero/img3.jpg";
+import bgImg1 from "../../../assets/hero/img3.jpg";
+import bgImg2 from "../../../assets/hero/img2.jpg";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function HeroSection() {
   return (
-    <section
-      className="relative  text-white overflow-hidden h-[550px] bg-center bg-cover bg-no-repeat"
-      style={{ backgroundImage: `url(${bgImg})` }}
-    >
-      {/* Watermark Background Image */}
-      <div className="absolute inset-0 bg-black/30 "></div>
+    <>
+      <Carousel
+        showArrows={false}
+        showStatus={false}
+        autoPlay={true}
+        infiniteLoop={true}
+        interval={5000}
+        swipeable={true}
+      >
+        <section
+          className="relative  text-white overflow-hidden h-[550px] bg-center bg-cover bg-no-repeat"
+          style={{ backgroundImage: `url(${bgImg1})` }}
+        >
+          <div className="absolute inset-0 bg-black/30 "></div>
 
-      <div className="relative">
-        <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center py-24">
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7 }}
-          >
-            <div className="space-y-6">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold font-serif">
-                Internet Service Provider
-              </h1>
-              <p className="mt-4 text-lg sm:text-xl lg:text-4xl font-bold">
-                বিশ্বস্ত একটি ইন্টারনেট প্রতিষ্ঠান
-              </p>
-              <div className="mt-6 flex gap-4">
-                <motion.a
-                  whileHover={{ scale: 1.05 }}
-                  href="#packages"
-                  className="px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 bg-white text-gray-700 font-semibold rounded-xl shadow-lg hover:bg-indigo-50"
-                >
-                  View Packages
-                </motion.a>
-                <motion.a
-                  whileHover={{ scale: 1.05 }}
-                  href="#contact"
-                  className="px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 border border-white rounded-xl font-semibold hover:bg-white hover:text-gray-700"
-                >
-                  Contact Us
-                </motion.a>
-              </div>
+          <div className="relative">
+            <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center py-24">
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.7 }}
+              >
+                <div className="space-y-6">
+                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-left font-serif">
+                    Internet Service Provider
+                  </h1>
+                  <p className="mt-4 text-lg sm:text-xl lg:text-4xl font-bold text-left">
+                    বিশ্বস্ত একটি ইন্টারনেট প্রতিষ্ঠান
+                  </p>
+                  <div className="mt-6 flex gap-4">
+                    <motion.a
+                      whileHover={{ scale: 1.05 }}
+                      href="#packages"
+                      className="px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 bg-white text-gray-700 font-semibold rounded-xl shadow-lg hover:bg-indigo-50"
+                    >
+                      View Packages
+                    </motion.a>
+                    <motion.a
+                      whileHover={{ scale: 1.05 }}
+                      href="#contact"
+                      className="px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 border border-white rounded-xl font-semibold hover:bg-white hover:text-gray-700"
+                    >
+                      Contact Us
+                    </motion.a>
+                  </div>
+                </div>
+              </motion.div>
             </div>
-          </motion.div>
+          </div>
+        </section>
+        <section
+          className="relative  text-white overflow-hidden h-[550px] bg-center bg-cover bg-no-repeat"
+          style={{ backgroundImage: `url(${bgImg2})` }}
+        >
+          <div className="absolute inset-0 bg-black/30 "></div>
 
-          {/* Optional Hero Image */}
-          {/* <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7 }}
-          >
-            <figure>
-              <img src={img} alt="Hero Image" />
-            </figure>
-          </motion.div> */}
-        </div>
-      </div>
-    </section>
+          <div className="relative">
+            <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center py-24">
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.7 }}
+              >
+                <div className="space-y-6">
+                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-left font-serif">
+                    Internet Service Provider
+                  </h1>
+                  <p className="mt-4 text-lg sm:text-xl lg:text-4xl font-bold text-left">
+                    বিশ্বস্ত একটি ইন্টারনেট প্রতিষ্ঠান
+                  </p>
+                  <div className="mt-6 flex gap-4">
+                    <motion.a
+                      whileHover={{ scale: 1.05 }}
+                      href="#packages"
+                      className="px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 bg-white text-gray-700 font-semibold rounded-xl shadow-lg hover:bg-indigo-50"
+                    >
+                      View Packages
+                    </motion.a>
+                    <motion.a
+                      whileHover={{ scale: 1.05 }}
+                      href="#contact"
+                      className="px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 border border-white rounded-xl font-semibold hover:bg-white hover:text-gray-700"
+                    >
+                      Contact Us
+                    </motion.a>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </section>
+      </Carousel>
+    </>
   );
+}
+
+{
+  /*<section
+          className="relative  text-white overflow-hidden h-[550px] bg-center bg-cover bg-no-repeat"
+          style={{ backgroundImage: `url(${bgImg})` }}
+        >
+       
+          <div className="absolute inset-0 bg-black/30 "></div>
+
+          <div className="relative">
+            <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center py-24">
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.7 }}
+              >
+                <div className="space-y-6">
+                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold font-serif">
+                    Internet Service Provider
+                  </h1>
+                  <p className="mt-4 text-lg sm:text-xl lg:text-4xl font-bold">
+                    বিশ্বস্ত একটি ইন্টারনেট প্রতিষ্ঠান
+                  </p>
+                  <div className="mt-6 flex gap-4">
+                    <motion.a
+                      whileHover={{ scale: 1.05 }}
+                      href="#packages"
+                      className="px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 bg-white text-gray-700 font-semibold rounded-xl shadow-lg hover:bg-indigo-50"
+                    >
+                      View Packages
+                    </motion.a>
+                    <motion.a
+                      whileHover={{ scale: 1.05 }}
+                      href="#contact"
+                      className="px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 border border-white rounded-xl font-semibold hover:bg-white hover:text-gray-700"
+                    >
+                      Contact Us
+                    </motion.a>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </section>
+   */
 }
 
 {

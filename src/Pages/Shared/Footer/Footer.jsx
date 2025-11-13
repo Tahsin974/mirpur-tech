@@ -9,6 +9,17 @@ export default function Footer() {
     { name: "Service", link: "/#service" },
     { name: "Contact", link: "/contact/" },
   ];
+  const handlePdf = () => {
+    const newTab = window.open(); // নতুন ট্যাব খোলা
+    if (newTab) {
+      newTab.location.href = "files/tariff-approval.pdf"; // public folder path
+      newTab.focus(); // নতুন ট্যাব foreground এ নিয়ে আসা
+    } else {
+      // যদি popup block হয়, fallback
+      window.location.href = "files/tariff-approval.pdf";
+    }
+  };
+
   return (
     <footer className="bg-[#EFF9FF] text-gray-800  px-6">
       <div className="  grid md:grid-cols-4 sm:grid-cols-2 gap-12 md:justify-items-center py-10">
@@ -46,6 +57,15 @@ export default function Footer() {
         <div className="text-base font-semibold">
           <h4 className="font-bold mb-3 text-xl">Links</h4>
           <ul className="space-y-1">
+            <li>
+              <motion.a
+                onClick={handlePdf}
+                whileHover={{ scale: 1.1, color: "#59aef8" }}
+                transition={{ type: "spring", stiffness: 300 }}
+              >
+                ISP tariff Approval
+              </motion.a>
+            </li>
             <li>
               <motion.a
                 href={`/terms-and-conditions/`}
