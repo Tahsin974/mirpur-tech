@@ -37,7 +37,7 @@ export default function HomePage() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             transition={{ duration: 0.3 }}
-            className="bg-white rounded-2xl shadow-lg p-6 max-w-xl w-full text-center  lg:h-max  h-[90vh] overflow-y-auto  "
+            className="bg-white rounded-2xl shadow-lg p-6 max-w-xl w-full text-center  overflow-auto max-h-[90vh]  "
           >
             <div className="relative">
               <button
