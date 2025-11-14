@@ -41,9 +41,9 @@ export default function ServicesSection() {
       }}
     >
       <div>
-        <div className="absolute inset-0 bg-white opacity-50"></div>
+        <div className="absolute inset-0 bg-white    opacity-50"></div>
         <div className="container mx-auto px-6 z-20 relative">
-          <h2 className="md:text-4xl text-3xl  font-bold text-center text-gray-800">
+          <h2 className="md:text-4xl text-3xl  font-bold text-center text-gray-800  ">
             Our Services
           </h2>
           <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">

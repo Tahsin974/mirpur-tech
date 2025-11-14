@@ -82,7 +82,7 @@ export default function OfferDetailsPage() {
             </h3>
             <div className="overflow-x-auto bg-white rounded-box shadow-sm ">
               <table className="table  text-center">
-                <thead className="bg-gray-50 text-black">
+                <thead className="bg-gray-50 text-gray-800">
                   <tr>
                     <th>ডিভাইস</th>
                     <th>মূল্য ফেরত (ক্যাশব্যাক)</th>

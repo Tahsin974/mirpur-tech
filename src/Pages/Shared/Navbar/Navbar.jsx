@@ -17,7 +17,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="bg-white backdrop-blur-md shadow sticky top-0 z-50">
+    <header className="bg-white backdrop-blur-md shadow sticky top-0 z-50   ">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -31,7 +31,7 @@ export default function Navbar() {
             </figure>
           </a>
         </motion.div>
-        <nav className="hidden md:flex items-center gap-6 text-gray-700 font-medium">
+        <nav className="hidden md:flex items-center gap-6 text-gray-700   font-medium">
           {links.map((link, i) => (
             <motion.a
               key={i}
@@ -54,9 +54,9 @@ export default function Navbar() {
         <div className="md:hidden flex">
           <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
             {isMenuOpen ? (
-              <X size={24} className="text-gray-800" />
+              <X size={24} className="text-gray-800  " />
             ) : (
-              <Menu size={24} className="text-gray-800" />
+              <Menu size={24} className="text-gray-800  " />
             )}
           </button>
         </div>
