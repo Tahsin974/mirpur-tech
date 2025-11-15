@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 // import img from "../../../assets/hero/hero-image.webp";
 import bgImg1 from "../../../assets/hero/img3.jpg";
 import bgImg2 from "../../../assets/hero/img2.jpg";
+import bgImg3 from "../../../assets/hero/img1.jpg";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -23,7 +24,7 @@ export default function HeroSection() {
           <div className="absolute inset-0 bg-black/30 "></div>
 
           <div className="relative">
-            <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center py-24">
+            <div className="container mx-auto px-6  gap-12 items-center py-32">
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -31,7 +32,7 @@ export default function HeroSection() {
               >
                 <div className="space-y-6">
                   <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-left font-serif">
-                    Internet Service Provider
+                    Internet Service <br /> Provider
                   </h1>
                   <p className="mt-4 text-lg sm:text-xl lg:text-4xl font-bold text-left">
                     বিশ্বস্ত একটি ইন্টারনেট প্রতিষ্ঠান
@@ -64,18 +65,18 @@ export default function HeroSection() {
           <div className="absolute inset-0 bg-black/30 "></div>
 
           <div className="relative">
-            <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center py-24">
+            <div className="container mx-auto px-6  gap-12 items-center py-32">
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.7 }}
               >
                 <div className="space-y-6">
-                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-left font-serif">
-                    Internet Service Provider
+                  <h1 className="sm:text-5xl lg:text-6xl text-2xl  text-white lg:text-left md:text-left  font-extrabold text-left font-serif">
+                    <span className="text-[#749ffd]">IPv4</span> Ready
                   </h1>
-                  <p className="mt-4 text-lg sm:text-xl lg:text-4xl font-bold text-left">
-                    বিশ্বস্ত একটি ইন্টারনেট প্রতিষ্ঠান
+                  <p className="lg:text-left md:text-left text-center sm:text-5xl lg:text-5xl text-2xl font-bold text-white lg:my-2 md:my-2 my-0">
+                    Connecting The World
                   </p>
                   <div className="mt-6 flex gap-4">
                     <motion.a
@@ -97,6 +98,11 @@ export default function HeroSection() {
               </motion.div>
             </div>
           </div>
+        </section>
+        <section className="relative  text-white overflow-hidden h-[550px]">
+          <figure className="w-full h-full">
+            <img src={bgImg3} className="w-full h-full object-fill" alt="" />
+          </figure>
         </section>
       </Carousel>
     </>

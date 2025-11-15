@@ -1,4 +1,4 @@
-import banner from "../../assets/Offer/offer-banner.jpeg";
+import banner from "../../assets/Offer/offer-banner.jpg";
 import img from "../../assets/Offer/offer.png";
 import { Link } from "react-router";
 
@@ -13,7 +13,7 @@ export default function OfferPage() {
             className="w-full h-full object-cover bg-opacity-50"
           />
         </div>
-        <div className="relative  lg:pb-32 md:pb-20 pb-16 lg:pt-32 md:pt-30 pt-24 -mt-24 px-5 md:px-8 lg:mt-0 bg-[#7c163bbd]">
+        <div className="relative  lg:pb-32 md:pb-20 pb-16 lg:pt-32 md:pt-30 pt-24 -mt-24 px-5 md:px-8 lg:mt-0 bg-[#7c163b8c]">
           <h1 className="font-extrabold tracking-tight pt-12 lg:pt-0 text-white lg:text-5xl md:text-4xl text-4xl">
             Offers & Campaigns
           </h1>

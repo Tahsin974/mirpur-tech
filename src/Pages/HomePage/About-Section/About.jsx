@@ -33,7 +33,7 @@ export default function AboutSection() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <figure className="bg-red-500">
+          <figure>
             <img src={img} alt="About Us Image" className="rounded-3xl " />
           </figure>
         </motion.div>

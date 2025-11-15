@@ -1,6 +1,6 @@
 import { CheckCircle, FileText, LogIn, Save, Zap } from "lucide-react";
-import banner from "../../assets/Paybill/paybill-banner.jpeg";
-import bkash from "../../assets/Paybill/bkash-pay.jpeg";
+import banner from "../../assets/Paybill/paybill-banner.jpg";
+import bkash from "../../assets/Paybill/bkash-pay.png";
 import StepCard from "./StepCard";
 export default function PayBillPage() {
   const steps = [
@@ -73,7 +73,7 @@ export default function PayBillPage() {
             className="w-full h-full object-cover bg-opacity-50"
           />
         </div>
-        <div className="relative  lg:pb-32 md:pb-20 pb-16 lg:pt-32 md:pt-30 pt-24 -mt-24 px-5 md:px-8 lg:mt-0 bg-[#7c163bbd]">
+        <div className="relative  lg:pb-32 md:pb-20 pb-16 lg:pt-32 md:pt-30 pt-24 -mt-24 px-5 md:px-8 lg:mt-0 bg-[#7c163b8c]">
           <h1 className="font-extrabold tracking-tight pt-12 lg:pt-0 text-white lg:text-5xl md:text-4xl text-4xl">
             Payment Made Easy
           </h1>
