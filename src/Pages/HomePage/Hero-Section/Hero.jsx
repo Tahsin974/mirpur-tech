@@ -31,7 +31,7 @@ export default function HeroSection() {
                 transition={{ duration: 0.7 }}
               >
                 <div className="space-y-6">
-                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-left font-serif">
+                  <h1 className="text-2xl sm:text-5xl lg:text-6xl font-extrabold text-left font-serif">
                     Internet Service <br /> Provider
                   </h1>
                   <p className="mt-4 text-lg sm:text-xl lg:text-4xl font-bold text-left">
@@ -75,7 +75,7 @@ export default function HeroSection() {
                   <h1 className="sm:text-5xl lg:text-6xl text-2xl  text-white lg:text-left md:text-left  font-extrabold text-left font-serif">
                     <span className="text-[#749ffd]">IPv4</span> Ready
                   </h1>
-                  <p className="lg:text-left md:text-left text-center sm:text-5xl lg:text-5xl text-2xl font-bold text-white lg:my-2 md:my-2 my-0">
+                  <p className="text-left sm:text-5xl lg:text-5xl text-2xl font-bold text-white lg:my-2 md:my-2 my-0">
                     Connecting The World
                   </p>
                   <div className="mt-6 flex gap-4">
