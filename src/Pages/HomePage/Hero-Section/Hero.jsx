@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 // import img from "../../../assets/hero/hero-image.webp";
 import bgImg1 from "../../../assets/hero/img3.jpg";
 import bgImg2 from "../../../assets/hero/img2.jpg";
-import bgImg3 from "../../../assets/hero/img1.jpg";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -99,11 +98,11 @@ export default function HeroSection() {
             </div>
           </div>
         </section>
-        <section className="relative  text-white overflow-hidden h-[550px]">
+        {/* <section className="relative  text-white overflow-hidden h-[550px]">
           <figure className="w-full h-full">
             <img src={bgImg3} className="w-full h-full object-fill" alt="" />
           </figure>
-        </section>
+        </section> */}
       </Carousel>
     </>
   );

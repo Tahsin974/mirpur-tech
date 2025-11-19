@@ -27,7 +27,7 @@ export default function Navbar() {
         >
           <a href="/#">
             <figure>
-              <img src={logo} alt="logo" className="h-[50px] w-auto" />
+              <img src={logo} alt="logo" className="h-[75px] w-auto" />
             </figure>
           </a>
         </motion.div>
@@ -38,6 +38,7 @@ export default function Navbar() {
               href={`${link.link}`}
               whileHover={{ scale: 1.1, color: "#59aef8" }}
               transition={{ type: "spring", stiffness: 300 }}
+              className="text-lg"
             >
               {link.name === "Offers" ? (
                 <div className="flex items-center gap-1.5">

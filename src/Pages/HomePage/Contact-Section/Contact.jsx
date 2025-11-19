@@ -66,19 +66,26 @@ export default function ContactSection() {
                 />
                 <div className="space-y-1.5">
                   <h3 className="text-xl text-[#1D2345] inter-bold">Phone</h3>
-                  <div className=" flex flex-wrap justify-center items-center gap-3 text-gray-500">
+                  <div className=" flex flex-wrap justify-center items-center gap-1 text-gray-500">
                     <a
                       href="tel:+8801872-338984"
                       className="hover:text-gray-600  transition-colors font-semibold flex items-center "
                     >
                       01872338984
                     </a>
-
+                    ,
                     <a
                       href="tel:+8801872-338985"
                       className="hover:text-gray-600  transition-colors font-semibold flex items-center gap-2"
                     >
                       01872338985
+                    </a>
+                    ,
+                    <a
+                      href="tel:+8801676-162532"
+                      className="hover:text-gray-600  transition-colors font-semibold flex items-center gap-2"
+                    >
+                      01676162532
                     </a>
                   </div>
                 </div>

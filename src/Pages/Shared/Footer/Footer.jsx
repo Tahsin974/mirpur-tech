@@ -110,7 +110,7 @@ export default function Footer() {
       </div>
       <div className="  py-3 border-t border-gray-300 flex justify-center items-center ">
         <div className="text-base text-center">
-          © {new Date().getFullYear()} MirpurTech. All rights reserved.
+          © 2015 MirpurTech. All rights reserved.
           <p className="text-[15px]">
             Developed by :{" "}
             <a

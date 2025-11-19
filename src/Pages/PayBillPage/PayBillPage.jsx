@@ -1,9 +1,10 @@
 import { CheckCircle, FileText, LogIn, Save, Zap } from "lucide-react";
 import banner from "../../assets/Paybill/paybill-banner.jpg";
 import bkash from "../../assets/Paybill/bkash-pay.png";
+import nagad from "../../assets/Paybill/nagad-pay.jpeg";
 import StepCard from "./StepCard";
 export default function PayBillPage() {
-  const steps = [
+  const bkashSteps = [
     {
       icon: LogIn,
 
@@ -63,6 +64,47 @@ export default function PayBillPage() {
       ),
     },
   ];
+  const nagadSteps = [
+    {
+      icon: LogIn,
+      description: (
+        <>
+          Login to your Nagad account and tap on the{" "}
+          <span className="text-red-600">"Merchant Pay" (মার্চেন্ট পে)</span>{" "}
+          icon.
+        </>
+      ),
+    },
+    {
+      icon: Zap,
+      description: (
+        <>
+          Enter the Merchant Account Number{" "}
+          <span className="text-red-600">" 01676-162532"</span> (Mirpur Tech) or
+          scan the QR code.
+        </>
+      ),
+    },
+    {
+      icon: FileText,
+      description: (
+        <>
+          Type the bill amount in "Amount" and your User ID in the{" "}
+          <span className="text-red-600">"Reference" (রেফারেন্স)</span> box.
+        </>
+      ),
+    },
+    {
+      icon: CheckCircle,
+      description: (
+        <>
+          Enter your PIN, then tap and hold the{" "}
+          <span className="text-red-600">"Tap to Pay"</span> button to complete
+          the transaction.
+        </>
+      ),
+    },
+  ];
   return (
     <div>
       <header className="relative  ">
@@ -84,7 +126,7 @@ export default function PayBillPage() {
           </p>
         </div>
       </header>
-      <main className="my-20">
+      <main className="my-20 space-y-4">
         <div className="hero bg-white min-h-max">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img src={bkash} className="md:max-w-xl rounded-lg shadow border" />
@@ -94,12 +136,34 @@ export default function PayBillPage() {
               </h1>
               <div>
                 <div className="border border-red-100 rounded-lg p-3 ">
-                  {steps.map((step, index) => (
+                  {bkashSteps.map((step, index) => (
                     <StepCard
                       key={index}
                       step={step}
                       index={index}
-                      steps={steps}
+                      steps={bkashSteps}
+                    />
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="hero bg-white min-h-max">
+          <div className="hero-content flex-col lg:flex-row-reverse">
+            <img src={nagad} className="md:max-w-xl rounded-lg shadow border" />
+            <div className="space-y-6">
+              <h1 className="lg:text-5xl md::text-4xl text-3xl font-bold">
+                Pay Bill through Nagad
+              </h1>
+              <div>
+                <div className="border border-red-100 rounded-lg p-3 ">
+                  {nagadSteps.map((step, index) => (
+                    <StepCard
+                      key={index}
+                      step={step}
+                      index={index}
+                      steps={nagadSteps}
                     />
                   ))}
                 </div>
