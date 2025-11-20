@@ -32,7 +32,7 @@ export default function ServicesSection() {
   return (
     <section
       id="service"
-      className="bg-white py-20 lg:h-[550px] relative"
+      className="bg-white md:py-20 py-5 lg:h-[550px] relative"
       style={{
         backgroundImage: `url(${bgImg})`,
         backgroundPosition: "center",

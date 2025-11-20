@@ -1,7 +1,7 @@
 import { CheckCircle, FileText, LogIn, Save, Zap } from "lucide-react";
 import banner from "../../assets/Paybill/paybill-banner.jpg";
 import bkash from "../../assets/Paybill/bkash-pay.png";
-import nagad from "../../assets/Paybill/nagad-pay.jpeg";
+import nagad from "../../assets/Paybill/nagad-pay.jpg";
 import StepCard from "./StepCard";
 export default function PayBillPage() {
   const bkashSteps = [

@@ -27,11 +27,15 @@ export default function Navbar() {
         >
           <a href="/#">
             <figure>
-              <img src={logo} alt="logo" className="h-[75px] w-auto" />
+              <img
+                src={logo}
+                alt="logo"
+                className="lg:h-[75px] h-[50px] w-auto"
+              />
             </figure>
           </a>
         </motion.div>
-        <nav className="hidden md:flex items-center gap-6 text-gray-700   font-medium">
+        <nav className="hidden lg:flex items-center gap-6 text-gray-700   font-medium">
           {links.map((link, i) => (
             <motion.a
               key={i}
@@ -52,7 +56,7 @@ export default function Navbar() {
           ))}
         </nav>
 
-        <div className="md:hidden flex">
+        <div className="lg:hidden flex">
           <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
             {isMenuOpen ? (
               <X size={24} className="text-gray-800  " />
