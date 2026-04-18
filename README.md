@@ -1,16 +1,51 @@
-# React + Vite
+# Mirpur Tech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌐 **Live Website:** https://www.mirpurtech.com/
 
-Currently, two official plugins are available:
+Mirpur Tech is a modern, fast, and responsive web application built with React and Vite. It is designed to provide an intuitive digital platform for showcasing tech services, location-based data, and interactive UI experiences focused on the Mirpur region.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project delivers a scalable frontend architecture with modern UI/UX principles, optimized performance, and interactive components such as maps, animations, and dynamic content rendering.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+### Core
+
+- React 19
+- Vite
+- React Router 7
+
+### Styling & UI
+
+- Tailwind CSS
+- DaisyUI
+- Framer Motion (animations)
+- Lucide React (icons)
+
+### Maps & Media
+
+- Leaflet
+- React Leaflet
+- React Responsive Carousel
+
+### Tooling
+
+- ESLint
+- Vite Plugin React
+- Tailwind Vite Plugin
+
+---
+
+## 📁 Project Setup
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/your-username/mirpur-tech.git
+cd mirpur-tech
+```
