@@ -3,6 +3,7 @@ import banner from "../../assets/Paybill/paybill-banner.jpg";
 import bkash from "../../assets/Paybill/bkash-pay.png";
 import nagad from "../../assets/Paybill/nagad-pay.jpg";
 import StepCard from "./StepCard";
+import { motion } from "framer-motion";
 export default function PayBillPage() {
   const bkashSteps = [
     {
@@ -107,23 +108,41 @@ export default function PayBillPage() {
   ];
   return (
     <div>
-      <header className="relative  ">
+      <header className="relative overflow-hidden">
+        {/* Banner Image */}
         <div className="absolute inset-0">
           <img
             src={banner}
-            alt=""
-            className="w-full h-full object-cover bg-opacity-50"
+            alt="Coverage Areas Banner"
+            className="w-full h-full object-cover scale-105"
           />
+          {/* Dark overlay */}
+          <div className="absolute inset-0 bg-black/40" />
         </div>
-        <div className="relative  lg:pb-32 md:pb-20 pb-16 lg:pt-32 md:pt-30 pt-24 -mt-24 px-5 md:px-8 lg:mt-0 bg-[#7c163b8c]">
-          <h1 className="font-extrabold tracking-tight pt-12 lg:pt-0 text-white lg:text-5xl md:text-4xl text-4xl">
-            Payment Made Easy
-          </h1>
-          <p className="lg:mt-6 md:mt-3 mt-6 lg:text-lg md:text-base text-lg text-indigo-100 max-w-4xl">
-            Pay conveniently through internet or mobile banking and have your
-            bills automatically updated with Mirpur Tech’s seamless billing
-            system. Follow these simple steps to complete your payment online.
-          </p>
+
+        {/* Content */}
+        <div className="relative z-10 flex items-center justify-center text-center px-4 py-24 md:py-32 lg:py-40">
+          <div>
+            <motion.h1
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="font-extrabold text-white text-3xl md:text-5xl lg:text-6xl tracking-tight"
+            >
+              Payment Made Easy
+            </motion.h1>
+
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="text-white/80 mt-4 text-sm md:text-base max-w-xl mx-auto"
+            >
+              Pay conveniently through internet or mobile banking and have your
+              bills automatically updated with Mirpur Tech’s seamless billing
+              system. Follow these simple steps to complete your payment online.
+            </motion.p>
+          </div>
         </div>
       </header>
       <main className="my-20 space-y-4">

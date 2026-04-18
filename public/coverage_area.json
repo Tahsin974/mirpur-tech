@@ -1,0 +1,161 @@
+[
+  {
+    "thana": "Shah Ali Thana",
+    "coordinates": [
+      {
+        "areaName": "F-block",
+        "latitude": 23.80018074567192,
+        "longitude": 90.35170465346701
+      },
+      {
+        "areaName": "G-block",
+        "latitude": 23.801324429570958,
+        "longitude": 90.35269754041116
+      },
+      {
+        "areaName": "A-block",
+        "latitude": 23.80362883907193,
+        "longitude": 90.34699881953462
+      },
+      {
+        "areaName": "B-block",
+        "latitude": 23.80343363606339,
+        "longitude": 90.34698686838853
+      },
+
+      {
+        "areaName": "C-block",
+        "latitude": 23.801770860902778,
+        "longitude": 90.34973207804605
+      },
+      {
+        "areaName": "New C-block",
+        "latitude": 23.80439533823686,
+        "longitude": 90.35002913694498
+      },
+      {
+        "areaName": "D-block",
+        "latitude": 23.800143590007323,
+        "longitude": 90.3489952632283
+      },
+      {
+        "areaName": "E-block",
+        "latitude": 23.803274801242956,
+        "longitude": 90.35360098554297
+      },
+      {
+        "areaName": "H-block",
+        "latitude": 23.805207207294917,
+        "longitude": 90.34509718588255
+      },
+      {
+        "areaName": "Mukti Joddha Market",
+        "latitude": 23.798224909861094,
+        "longitude": 90.3516847521832
+      },
+
+      {
+        "areaName": "Mukto Bangla Market",
+        "latitude": 23.798800761483655,
+        "longitude": 90.353053970035
+      },
+      {
+        "areaName": "Flair Plaza",
+        "latitude": 23.79887086270063,
+        "longitude": 90.3513690318879
+      },
+      {
+        "areaName": "Haque Plaza",
+        "latitude": 23.79808,
+        "longitude": 90.3528
+      },
+      {
+        "areaName": "Khushiwara Tower",
+        "latitude": 23.8001292,
+        "longitude": 90.3542159
+      },
+      {
+        "areaName": "MA Plaza",
+        "latitude": 23.7987218,
+        "longitude": 90.351927
+      },
+      {
+        "areaName": "North Bishil",
+        "latitude": 23.79892,
+        "longitude": 90.34851
+      },
+
+      {
+        "areaName": "Turag City",
+        "latitude": 23.8023,
+        "longitude": 90.34631
+      },
+      {
+        "areaName": "Royal City",
+        "latitude": 23.800464456334268,
+        "longitude": 90.34914096511388
+      }
+    ]
+  },
+
+  {
+    "thana": "Darus Salam Thana",
+    "coordinates": [
+      {
+        "areaName": "Chinnomul Market",
+        "latitude": 23.79884238391704,
+        "longitude": 90.35130022903981
+      },
+      {
+        "areaName": "College Market",
+        "latitude": 23.797464644889427,
+        "longitude": 90.35048523627844
+      },
+      {
+        "areaName": "Co operative Market",
+        "latitude": 23.797911827780528,
+        "longitude": 90.3524891592903
+      },
+      {
+        "areaName": "Shah Ali Market",
+        "latitude": 23.797222481766955,
+        "longitude": 90.34728624391613
+      },
+      {
+        "areaName": "South Bishil",
+        "latitude": 23.79495,
+        "longitude": 90.35155
+      }
+    ]
+  },
+  {
+    "thana": "Mirpur Model Thana",
+    "coordinates": [
+      {
+        "areaName": "Mohosin Tower",
+        "latitude": 23.80617283040564,
+        "longitude": 90.35333043443156
+      },
+      {
+        "areaName": "Cha-block",
+        "latitude": 23.806200886103152,
+        "longitude": 90.35453770947073
+      },
+      {
+        "areaName": "D-block",
+        "latitude": 23.803297551595804,
+        "longitude": 90.3560139431918
+      },
+      {
+        "areaName": "E-block",
+        "latitude": 23.802779939271517,
+        "longitude": 90.35368330292536
+      },
+      {
+        "areaName": "F-block",
+        "latitude": 23.803297551595804,
+        "longitude": 90.3560139431918
+      }
+    ]
+  }
+]

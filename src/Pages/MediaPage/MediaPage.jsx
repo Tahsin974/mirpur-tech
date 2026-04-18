@@ -6,7 +6,8 @@ import img4 from "../../assets/Server/jellyfin.png";
 import img5 from "../../assets/Server/circleftp.jpeg";
 import img6 from "../../assets/Server/BASPLAY.JPG";
 import tvimg1 from "../../assets/Server/basnet.png";
-
+import banner from "../../assets/Server/media-banner.png";
+import { motion } from "framer-motion";
 export default function MediaPage() {
   const tvLinks = [
     { name: "BASNET TV", url: "http://10.99.99.99/", img: tvimg1 },
@@ -31,6 +32,43 @@ export default function MediaPage() {
   ];
   return (
     <div>
+      <header className="relative overflow-hidden">
+        {/* Banner Image */}
+        <div className="absolute inset-0">
+          <img
+            src={banner}
+            alt="Coverage Areas Banner"
+            className="w-full h-full object-cover scale-105"
+          />
+          {/* Dark overlay */}
+          <div className="absolute inset-0 bg-black/40" />
+        </div>
+
+        {/* Content */}
+        <div className="relative z-10 flex items-center justify-center text-center px-4 py-24 md:py-32 lg:py-40">
+          <div>
+            <motion.h1
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="font-extrabold text-white text-3xl md:text-5xl lg:text-6xl tracking-tight"
+            >
+              Media & Server Access Hub
+            </motion.h1>
+
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="text-white/80 mt-4 text-sm md:text-base max-w-xl mx-auto"
+            >
+              Access all TV servers, FTP storage, and media platforms from a
+              single unified dashboard. Fast, secure, and organized network
+              resources for seamless content access anytime.
+            </motion.p>
+          </div>
+        </div>
+      </header>
       <div className="min-h-max bg-gray-50  py-16 px-6 flex flex-col items-center">
         <h1 className="text-3xl font-bold text-gray-800  mb-8">
           TV Server Links

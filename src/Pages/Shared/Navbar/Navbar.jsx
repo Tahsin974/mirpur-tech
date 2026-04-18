@@ -13,6 +13,8 @@ export default function Navbar() {
     { name: "Media", link: "/media" },
     { name: "Service", link: "/#service" },
     { name: "PayBill", link: "/paybill#" },
+        { name: "Coverage", link: "/coverage-areas" },
+
     { name: "Contact", link: "/contact/" },
   ];
 

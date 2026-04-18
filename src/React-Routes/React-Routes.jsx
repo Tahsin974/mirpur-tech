@@ -11,6 +11,7 @@ import AboutPage from "../Pages/AboutPage/AboutPage";
 import OfferPage from "../Pages/OfferPage/OfferPage";
 import OfferDetailsPage from "../Pages/OfferPage/OfferDetailsPage";
 import PayBillPage from "../Pages/PayBillPage/PayBillPage";
+import CoverageAreasPage from "../Pages/CoverageAreasPage/CoverageAreasPage";
 
 export const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ export const router = createBrowserRouter([
       {
         path: "/paybill",
         element: <PayBillPage />,
+      },
+      {
+        path: "/coverage-areas",
+        element: <CoverageAreasPage />,
       },
       {
         path: "/terms-and-conditions/",

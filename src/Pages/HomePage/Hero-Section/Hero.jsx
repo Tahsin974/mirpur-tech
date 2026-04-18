@@ -74,7 +74,7 @@ export default function HeroSection() {
                 <div className="space-y-6">
                   <h1 className="sm:text-5xl lg:text-6xl text-2xl  text-white lg:text-left md:text-left  font-extrabold text-left font-serif">
                     <span className="md:text-[#749ffd] text-[#8faff5]">
-                      IPv4
+                      IPv4/IPv6
                     </span>{" "}
                     Ready
                   </h1>

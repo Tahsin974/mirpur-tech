@@ -12,31 +12,7 @@ export default function PackagesSection() {
           Choose a package that fits your needs
         </p>
         <div className="mt-12 grid grid-cols-1 gap-8">
-          {/* {plans.map((plan, i) => (
-            <motion.div
-              key={plan.id}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: i * 0.2, duration: 0.6 }}
-              className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition text-center border-t-4 border-[#59AEF8]"
-            >
-              <h3 className="font-bold text-[#59AEF8] text-xl">{plan.name}</h3>
-              <p className="text-sm text-gray-600">IIG {plan.speed}</p>
-              <ul className="mt-4 text-sm text-gray-500 space-y-1">
-                <li>Unlimited Facebook</li>
-                <li>Unlimited YouTube</li>
-                <li>BDIX Connected Server</li>
-                <li>24/7 Customer Care</li>
-              </ul>
-              <div className="mt-6 text-3xl font-bold text-gray-800 ">
-                ৳{plan.price}
-                <span className="text-sm">/month</span>
-              </div>
-              <button className="mt-6 w-full py-2 bg-[#59AEF8] text-white rounded-xl hover:bg-[#59AEF8] shadow">
-                Get Started
-              </button>
-            </motion.div>
-          ))} */}
+         
           {/* Steel */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -44,11 +20,9 @@ export default function PackagesSection() {
             transition={{ delay: 0, duration: 0.6 }}
             className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition text-center border-t-4 border-[#59AEF8] relative overflow-hidden"
           >
-            <div
-              className="
-        bg-[#e0eff7]   w-[350px] h-[500px] lg:-rotate-65   absolute lg:-right-36  lg:-top-44 -bottom-[350px] hidden xl:flex lg:flex 
-      "
-            ></div>
+           
+            <div className="bg-[#e0eff7] w-96 h-[500px] lg:-rotate-30 md:-rotate-30 -rotate-[8deg] hidden xl:flex lg:flex absolute lg:-right-36 md:-right-44 -right-20 lg:-top-44 md:-top-44 -bottom-[350px] z-10"
+></div>
             <div className="grid lg:grid-cols-4  grid-cols-1 items-center z-10  gap-3">
               {/* Header Section */}
               <div className="p-4  text-left">
@@ -135,7 +109,7 @@ export default function PackagesSection() {
           >
             <div
               className="
-        bg-[#e0eff7]   w-[350px] h-[500px] lg:-rotate-65   absolute lg:-right-36  lg:-top-44 -bottom-[350px] hidden xl:flex lg:flex 
+        bg-[#e0eff7] w-96 h-[500px] lg:-rotate-30 md:-rotate-30 -rotate-[8deg] hidden xl:flex lg:flex absolute lg:-right-36 md:-right-44 -right-20 lg:-top-44 md:-top-44 -bottom-[350px] z-10 
       "
             ></div>
             <div className="grid lg:grid-cols-4  grid-cols-1 items-center z-10  gap-3">
@@ -181,7 +155,7 @@ export default function PackagesSection() {
               {/* Features - Right Column */}
               <div className="pl-2 pr-5 grid grid-cols-1 gap-2">
                 {[
-                  "IPv4 Public IP Only",
+                  
                   "BDIX Connected Server",
                   "24/7 Phone and Online Support",
                 ].map((item, i) => (
@@ -227,7 +201,7 @@ export default function PackagesSection() {
           >
             <div
               className="
-        bg-[#e0eff7]   w-[350px] h-[500px] lg:-rotate-65   absolute lg:-right-36  lg:-top-44 -bottom-[350px] hidden xl:flex lg:flex 
+        bg-[#e0eff7] w-96 h-[500px] lg:-rotate-30 md:-rotate-30 -rotate-[8deg] hidden xl:flex lg:flex absolute lg:-right-36 md:-right-44 -right-20 lg:-top-44 md:-top-44 -bottom-[350px] z-10 
       "
             ></div>
             <div className="grid lg:grid-cols-4  grid-cols-1 items-center z-10  gap-3">
@@ -273,7 +247,7 @@ export default function PackagesSection() {
               {/* Features - Right Column */}
               <div className="pl-2 pr-5 grid grid-cols-1 gap-2">
                 {[
-                  "IPv4 Public IP Only",
+                  "IPv4/IPv6 Public IP Only",
                   "BDIX Connected Server",
                   "24/7 Phone and Online Support",
                 ].map((item, i) => (
@@ -319,7 +293,7 @@ export default function PackagesSection() {
           >
             <div
               className="
-        bg-[#e0eff7]   w-[350px] h-[500px] lg:-rotate-65   absolute lg:-right-36  lg:-top-44 -bottom-[350px] hidden xl:flex lg:flex 
+        bg-[#e0eff7] w-96 h-[500px] lg:-rotate-30 md:-rotate-30 -rotate-[8deg] hidden xl:flex lg:flex absolute lg:-right-36 md:-right-44 -right-20 lg:-top-44 md:-top-44 -bottom-[350px] z-10 
       "
             ></div>
             <div className="grid lg:grid-cols-4  grid-cols-1 items-center z-10  gap-3">
@@ -365,7 +339,7 @@ export default function PackagesSection() {
               {/* Features - Right Column */}
               <div className="pl-2 pr-5 grid grid-cols-1 gap-2">
                 {[
-                  "IPv4 Public IP Only",
+                  "IPv4/IPv6 Public IP Only",
                   "BDIX Connected Server",
                   "24/7 Phone and Online Support",
                 ].map((item, i) => (
@@ -411,7 +385,7 @@ export default function PackagesSection() {
           >
             <div
               className="
-        bg-[#e0eff7]   w-[350px] h-[500px] lg:-rotate-65   absolute lg:-right-36  lg:-top-44 -bottom-[350px] hidden xl:flex lg:flex 
+        bg-[#e0eff7] w-96 h-[500px] lg:-rotate-30 md:-rotate-30 -rotate-[8deg] hidden xl:flex lg:flex absolute lg:-right-36 md:-right-44 -right-20 lg:-top-44 md:-top-44 -bottom-[350px] z-10 
       "
             ></div>
             <div className="grid lg:grid-cols-4  grid-cols-1 items-center z-10  gap-3">
@@ -457,7 +431,7 @@ export default function PackagesSection() {
               {/* Features - Right Column */}
               <div className="pl-2 pr-5 grid grid-cols-1 gap-2">
                 {[
-                  "IPv4 Public IP Only",
+                  "IPv4/IPv6 Public IP Only",
                   "BDIX Connected Server",
                   "24/7 Phone and Online Support",
                 ].map((item, i) => (
@@ -503,7 +477,7 @@ export default function PackagesSection() {
           >
             <div
               className="
-        bg-[#e0eff7]   w-[350px] h-[500px] lg:-rotate-65   absolute lg:-right-36  lg:-top-44 -bottom-[350px] hidden xl:flex lg:flex 
+        bg-[#e0eff7] w-96 h-[500px] lg:-rotate-30 md:-rotate-30 -rotate-[8deg] hidden xl:flex lg:flex absolute lg:-right-36 md:-right-44 -right-20 lg:-top-44 md:-top-44 -bottom-[350px] z-10 
       "
             ></div>
             <div className="grid lg:grid-cols-4  grid-cols-1 items-center z-10  gap-3">
@@ -551,7 +525,7 @@ export default function PackagesSection() {
               {/* Features - Right Column */}
               <div className="pl-2 pr-5 grid grid-cols-1 gap-2">
                 {[
-                  "IPv4 Public IP Only",
+                  "IPv4/IPv6 Public IP Only",
                   "BDIX Connected Server",
                   "24/7 Phone and Online Support",
                 ].map((item, i) => (
