@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import PackageCard from "../../../components/PackageCard/PackageCard";
 
 export default function PackagesSection() {
   return (
@@ -12,7 +11,6 @@ export default function PackagesSection() {
           Choose a package that fits your needs
         </p>
         <div className="mt-12 grid grid-cols-1 gap-8">
-         
           {/* Steel */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -20,9 +18,7 @@ export default function PackagesSection() {
             transition={{ delay: 0, duration: 0.6 }}
             className="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition text-center border-t-4 border-[#59AEF8] relative overflow-hidden"
           >
-           
-            <div className="bg-[#e0eff7] w-96 h-[500px] lg:-rotate-30 md:-rotate-30 -rotate-[8deg] hidden xl:flex lg:flex absolute lg:-right-36 md:-right-44 -right-20 lg:-top-44 md:-top-44 -bottom-[350px] z-10"
-></div>
+            <div className="bg-[#e0eff7] w-96 h-[500px] lg:-rotate-30 md:-rotate-30 -rotate-[8deg] hidden xl:flex lg:flex absolute lg:-right-36 md:-right-44 -right-20 lg:-top-44 md:-top-44 -bottom-[350px] z-10"></div>
             <div className="grid lg:grid-cols-4  grid-cols-1 items-center z-10  gap-3">
               {/* Header Section */}
               <div className="p-4  text-left">
@@ -43,7 +39,7 @@ export default function PackagesSection() {
               <div className="lg:border-x   border-x-0 border-gray-300 px-5 grid grid-cols-1 gap-2 text-left">
                 {["IIG 20 Mbps", "Unlimited Facebook", "Unlimited Youtube"].map(
                   (item, i) => (
-                    <li key={i} className="flex space-x-3">
+                    <li key={i} className="flex text-start space-x-3">
                       <svg
                         className="shrink-0 h-5 w-5 text-green-500"
                         xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +55,7 @@ export default function PackagesSection() {
                       </svg>
                       <span className="text-sm text-gray-800 ">{item}</span>
                     </li>
-                  )
+                  ),
                 )}
               </div>
 
@@ -67,7 +63,7 @@ export default function PackagesSection() {
               <div className="pl-2 pr-5 grid grid-cols-1 gap-2">
                 {["BDIX Connected Server", "24/7 Phone and Online Support"].map(
                   (item, i) => (
-                    <li key={i} className="flex space-x-3">
+                    <li key={i} className="flex text-start space-x-3">
                       <svg
                         className="shrink-0 h-5 w-5 text-green-500"
                         xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +79,7 @@ export default function PackagesSection() {
                       </svg>
                       <span className="text-sm text-gray-800 ">{item}</span>
                     </li>
-                  )
+                  ),
                 )}
               </div>
 
@@ -132,7 +128,7 @@ export default function PackagesSection() {
               <div className="lg:border-x   border-x-0 border-gray-300 px-5 grid grid-cols-1 gap-2 text-left">
                 {["IIG 30 Mbps", "Unlimited Facebook", "Unlimited Youtube"].map(
                   (item, i) => (
-                    <li key={i} className="flex space-x-3">
+                    <li key={i} className="flex text-start space-x-3">
                       <svg
                         className="shrink-0 h-5 w-5 text-green-500"
                         xmlns="http://www.w3.org/2000/svg"
@@ -148,34 +144,32 @@ export default function PackagesSection() {
                       </svg>
                       <span className="text-sm text-gray-800 ">{item}</span>
                     </li>
-                  )
+                  ),
                 )}
               </div>
 
               {/* Features - Right Column */}
               <div className="pl-2 pr-5 grid grid-cols-1 gap-2">
-                {[
-                  
-                  "BDIX Connected Server",
-                  "24/7 Phone and Online Support",
-                ].map((item, i) => (
-                  <li key={i} className="flex space-x-3">
-                    <svg
-                      className="shrink-0 h-5 w-5 text-green-500"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    <span className="text-sm text-gray-800 ">{item}</span>
-                  </li>
-                ))}
+                {["BDIX Connected Server", "24/7 Phone and Online Support"].map(
+                  (item, i) => (
+                    <li key={i} className="flex text-start space-x-3">
+                      <svg
+                        className="shrink-0 h-5 w-5 text-green-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <span className="text-sm text-gray-800 ">{item}</span>
+                    </li>
+                  ),
+                )}
               </div>
 
               {/* Price & CTA */}
@@ -224,7 +218,7 @@ export default function PackagesSection() {
               <div className="lg:border-x   border-x-0 border-gray-300 px-5 grid grid-cols-1 gap-2 text-left">
                 {["IIG 40 Mbps", "Unlimited Facebook", "Unlimited Youtube"].map(
                   (item, i) => (
-                    <li key={i} className="flex space-x-3">
+                    <li key={i} className="flex text-start space-x-3">
                       <svg
                         className="shrink-0 h-5 w-5 text-green-500"
                         xmlns="http://www.w3.org/2000/svg"
@@ -240,7 +234,7 @@ export default function PackagesSection() {
                       </svg>
                       <span className="text-sm text-gray-800 ">{item}</span>
                     </li>
-                  )
+                  ),
                 )}
               </div>
 
@@ -251,7 +245,7 @@ export default function PackagesSection() {
                   "BDIX Connected Server",
                   "24/7 Phone and Online Support",
                 ].map((item, i) => (
-                  <li key={i} className="flex space-x-3">
+                  <li key={i} className="flex text-start space-x-3">
                     <svg
                       className="shrink-0 h-5 w-5 text-green-500"
                       xmlns="http://www.w3.org/2000/svg"
@@ -316,7 +310,7 @@ export default function PackagesSection() {
               <div className="lg:border-x   border-x-0 border-gray-300 px-5 grid grid-cols-1 gap-2 text-left">
                 {["IIG 60 Mbps", "Unlimited Facebook", "Unlimited Youtube"].map(
                   (item, i) => (
-                    <li key={i} className="flex space-x-3">
+                    <li key={i} className="flex text-start space-x-3">
                       <svg
                         className="shrink-0 h-5 w-5 text-green-500"
                         xmlns="http://www.w3.org/2000/svg"
@@ -332,7 +326,7 @@ export default function PackagesSection() {
                       </svg>
                       <span className="text-sm text-gray-800 ">{item}</span>
                     </li>
-                  )
+                  ),
                 )}
               </div>
 
@@ -343,7 +337,7 @@ export default function PackagesSection() {
                   "BDIX Connected Server",
                   "24/7 Phone and Online Support",
                 ].map((item, i) => (
-                  <li key={i} className="flex space-x-3">
+                  <li key={i} className="flex text-start space-x-3">
                     <svg
                       className="shrink-0 h-5 w-5 text-green-500"
                       xmlns="http://www.w3.org/2000/svg"
@@ -408,7 +402,7 @@ export default function PackagesSection() {
               <div className="lg:border-x   border-x-0 border-gray-300 px-5 grid grid-cols-1 gap-2 text-left">
                 {["IIG 80 Mbps", "Unlimited Facebook", "Unlimited Youtube"].map(
                   (item, i) => (
-                    <li key={i} className="flex space-x-3">
+                    <li key={i} className="flex text-start space-x-3">
                       <svg
                         className="shrink-0 h-5 w-5 text-green-500"
                         xmlns="http://www.w3.org/2000/svg"
@@ -424,7 +418,7 @@ export default function PackagesSection() {
                       </svg>
                       <span className="text-sm text-gray-800 ">{item}</span>
                     </li>
-                  )
+                  ),
                 )}
               </div>
 
@@ -435,7 +429,7 @@ export default function PackagesSection() {
                   "BDIX Connected Server",
                   "24/7 Phone and Online Support",
                 ].map((item, i) => (
-                  <li key={i} className="flex space-x-3">
+                  <li key={i} className="flex text-start space-x-3">
                     <svg
                       className="shrink-0 h-5 w-5 text-green-500"
                       xmlns="http://www.w3.org/2000/svg"
@@ -503,7 +497,7 @@ export default function PackagesSection() {
                   "Unlimited Facebook",
                   "Unlimited Youtube",
                 ].map((item, i) => (
-                  <li key={i} className="flex space-x-3">
+                  <li key={i} className="flex text-start space-x-3">
                     <svg
                       className="shrink-0 h-5 w-5 text-green-500"
                       xmlns="http://www.w3.org/2000/svg"
@@ -529,7 +523,7 @@ export default function PackagesSection() {
                   "BDIX Connected Server",
                   "24/7 Phone and Online Support",
                 ].map((item, i) => (
-                  <li key={i} className="flex space-x-3">
+                  <li key={i} className="flex text-start space-x-3">
                     <svg
                       className="shrink-0 h-5 w-5 text-green-500"
                       xmlns="http://www.w3.org/2000/svg"

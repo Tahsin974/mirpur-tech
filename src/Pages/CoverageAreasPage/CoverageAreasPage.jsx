@@ -58,7 +58,7 @@ export default function CoverageAreasPage() {
       </header>
 
       {/* Content Section */}
-      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 -mt-16 relative z-10">
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative z-10">
         {/* Grid */}
         <div className="grid grid-cols-1 gap-6">
           {areas?.map((thana, index) => (
@@ -67,7 +67,7 @@ export default function CoverageAreasPage() {
               className="group bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden"
             >
               {/* Card Header */}
-              <div className="px-5 py-4 bg-gradient-to-r from-gray-50 to-white border-b border-gray-100">
+              <div className="px-5 py-4 bg-linear-to-r from-gray-50 to-white border-b border-gray-100">
                 <h2 className="text-lg md:text-xl font-semibold text-gray-800 group-hover:text-[#7c163b] transition-colors">
                   {thana.thana}
                 </h2>
