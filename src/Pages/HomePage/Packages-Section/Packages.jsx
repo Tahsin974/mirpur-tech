@@ -30,7 +30,7 @@ export default function PackagesSection() {
                 </p>
                 <p className="lg:mt-8 md:mt-5 mt-8">
                   <span className="lg:text-2xl md:text-xl text-xl font-extrabold text-white lg:px-9 md:px-4 px-5 lg:py-4 md:py-3 py-3 shadow-lg rounded-t-2xl rounded-r-2xl bg-[#4B5563]">
-                    20 Mbps
+                    25 Mbps
                   </span>
                 </p>
               </div>
@@ -87,7 +87,7 @@ export default function PackagesSection() {
               <div className=" p-2 sm:p-5 flex flex-col justify-center lg:items-end   items-center z-10  rounded-2xl lg:bg-transparent xl:bg-transparent  bg-sky-300 ">
                 <p className=" text-center lg:text-right">
                   <span className="md:text-4xl text-2xl font-extrabold xl:text-gray-800 lg:text-gray-800 text-white">
-                    ৳500
+                    ৳525
                   </span>
                   <span className="xl:text-gray-800 lg:text-gray-800 text-white font-medium">
                     /month
@@ -119,7 +119,7 @@ export default function PackagesSection() {
                 </p>
                 <p className="lg:mt-8 md:mt-5 mt-8">
                   <span className="lg:text-2xl md:text-xl text-xl font-extrabold text-white lg:px-9 md:px-4 px-5 lg:py-4 md:py-3 py-3 shadow-lg rounded-t-2xl rounded-r-2xl bg-[#966c44]">
-                    30 Mbps
+                    35 Mbps
                   </span>
                 </p>
               </div>
@@ -176,7 +176,7 @@ export default function PackagesSection() {
               <div className=" p-2 sm:p-5 flex flex-col justify-center lg:items-end   items-center z-10  rounded-2xl lg:bg-transparent xl:bg-transparent  bg-sky-300 ">
                 <p className=" text-center lg:text-right">
                   <span className="md:text-4xl text-2xl font-extrabold xl:text-gray-800 lg:text-gray-800 text-white">
-                    ৳800
+                    ৳840
                   </span>
                   <span className="xl:text-gray-800 lg:text-gray-800 text-white font-medium">
                     /month
@@ -209,7 +209,7 @@ export default function PackagesSection() {
                 </p>
                 <p className="lg:mt-8 md:mt-5 mt-8">
                   <span className="lg:text-2xl md:text-xl text-xl font-extrabold text-white lg:px-9 md:px-4 px-5 lg:py-4 md:py-3 py-3 shadow-lg rounded-t-2xl rounded-r-2xl bg-[#86888d]">
-                    40 Mbps
+                    45 Mbps
                   </span>
                 </p>
               </div>
@@ -268,7 +268,7 @@ export default function PackagesSection() {
               <div className=" p-2 sm:p-5 flex flex-col justify-center lg:items-end   items-center z-10  rounded-2xl lg:bg-transparent xl:bg-transparent  bg-sky-300 ">
                 <p className=" text-center lg:text-right">
                   <span className="md:text-4xl text-2xl font-extrabold xl:text-gray-800 lg:text-gray-800 text-white">
-                    ৳1000
+                    ৳1050
                   </span>
                   <span className="xl:text-gray-800 lg:text-gray-800 text-white font-medium">
                     /month
@@ -301,7 +301,7 @@ export default function PackagesSection() {
                 </p>
                 <p className="lg:mt-8 md:mt-5 mt-8">
                   <span className="lg:text-2xl md:text-xl text-xl font-extrabold text-white lg:px-9 md:px-4 px-5 lg:py-4 md:py-3 py-3 shadow-lg rounded-t-2xl rounded-r-2xl bg-[#ca981a]">
-                    60 Mbps
+                    65 Mbps
                   </span>
                 </p>
               </div>
@@ -360,7 +360,7 @@ export default function PackagesSection() {
               <div className=" p-2 sm:p-5 flex flex-col justify-center lg:items-end   items-center z-10  rounded-2xl lg:bg-transparent xl:bg-transparent  bg-sky-300 ">
                 <p className=" text-center lg:text-right">
                   <span className="md:text-4xl text-2xl font-extrabold xl:text-gray-800 lg:text-gray-800 text-white">
-                    ৳1500
+                    ৳1575
                   </span>
                   <span className="xl:text-gray-800 lg:text-gray-800 text-white font-medium">
                     /month
@@ -452,7 +452,7 @@ export default function PackagesSection() {
               <div className=" p-2 sm:p-5 flex flex-col justify-center lg:items-end   items-center z-10  rounded-2xl lg:bg-transparent xl:bg-transparent  bg-sky-300  ">
                 <p className=" text-center lg:text-right">
                   <span className="md:text-4xl text-2xl font-extrabold xl:text-gray-800 lg:text-gray-800 text-white">
-                    ৳2000
+                    ৳2100
                   </span>
                   <span className="xl:text-gray-800 lg:text-gray-800 text-white font-medium">
                     /month
@@ -485,7 +485,7 @@ export default function PackagesSection() {
                 </p>
                 <p className="lg:mt-8 md:mt-5 mt-8">
                   <span className="lg:text-2xl md:text-xl text-xl font-extrabold text-white lg:px-9 md:px-4 px-5 lg:py-4 md:py-3 py-3 shadow-lg rounded-t-2xl rounded-r-2xl bg-[#40E0D0]">
-                    100 Mbps
+                    110 Mbps
                   </span>
                 </p>
               </div>
@@ -546,7 +546,7 @@ export default function PackagesSection() {
               <div className=" p-2 sm:p-5 flex flex-col justify-center lg:items-end   items-center z-10  rounded-2xl lg:bg-transparent xl:bg-transparent  bg-sky-300  ">
                 <p className=" text-center lg:text-right">
                   <span className="md:text-4xl text-2xl font-extrabold xl:text-gray-800 lg:text-gray-800 text-white">
-                    ৳3000
+                    ৳3150
                   </span>
                   <span className="xl:text-gray-800 lg:text-gray-800 text-white font-medium">
                     /month
